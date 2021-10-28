@@ -1,0 +1,9 @@
+print("Стартовое количество")
+a=int(input())
+print("Среднесуточное увелечение")
+k=int(input())
+print("Количество дней размножения")
+t=int(input())
+for i in range (1, t+1, 1):
+a += (i * (k/100))
+print(i, a)
